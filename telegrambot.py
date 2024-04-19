@@ -16,9 +16,9 @@ from queries import ALL_USERS
 
 API_KEY = os.environ.get("TG_API_KEY")
 BOT_NAME = os.environ.get("BOT_NAME")
-URL = os.environ.get("URL")
-ORB_ACCESS_TOKEN = os.environ.get("ORB_ACCESS_TOKEN")
-ORB_URL = os.environ.get("ORB_URL")
+# URL = os.environ.get("URL")
+# ORB_ACCESS_TOKEN = os.environ.get("ORB_ACCESS_TOKEN")
+# ORB_URL = os.environ.get("ORB_URL")
 ALLOWED_USERS = [item["tgid"] for item in ALL_USERS]
 
 
